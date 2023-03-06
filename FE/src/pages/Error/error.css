@@ -1,0 +1,12 @@
+.error-img {
+  width: 500px;
+  height: 500px;
+}
+
+.error-div {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

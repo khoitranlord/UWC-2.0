@@ -1,0 +1,39 @@
+version: '2.4'
+
+x-app: &default-app
+  env_file:
+    - "./.env"
+  restart: "${DOCKER_RESTART_POLICY:-unless-stopped}"
+
+services:
+  fe:
+    <<: *default-app
+    build: 
+      context: "./FE"
+      dockerfile: Dockerfile
+      target: ${NODE_ENV}
+      args:
+        - "NODE_ENV=${NODE_ENV}"
+    ports:
+      - "${DOCKER_FE_PORT_FORWARD}:${FE_PORT}"
+    volumes:
+      - "./FE:/opt/FE:delegated"
+      - "/FE/node_modules"
+
+  be:
+    <<: *default-app
+    build:
+      context: "./BE"
+      target: ${NODE_ENV}
+      dockerfile: Dockerfile
+      args:
+        - "NODE_ENV=${NODE_ENV}"
+    ports:
+      - "${DOCKER_BE_PORT_FORWARD}:${BE_PORT}"
+    volumes:
+      - "./BE:/opt/BE:delegated"
+      - "/BE/node_modules"
+
+
+volumes:
+  notused:

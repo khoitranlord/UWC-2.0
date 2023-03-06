@@ -1,0 +1,23 @@
+.marker {
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.overloaded {
+  background-image: url(/src/assets/images/marker-overloaded.svg);
+}
+
+.ok {
+  background-image: url(/src/assets/images/marker-ok.svg);
+}
+
+.ok-description {
+  color: #3cf03f;
+}
+
+.overloaded-description {
+  color: #ff6e6e;
+}

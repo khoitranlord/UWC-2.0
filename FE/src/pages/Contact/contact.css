@@ -1,0 +1,13 @@
+
+.Contact {
+    padding-top: 100px;
+    display: flex;
+    position: relative;
+    flex:6
+  }
+  
+  :root {
+    --main-blue: #00253a;
+    --main-green: #2e933c;
+    --white: #ffffff;
+  }

@@ -1,0 +1,30 @@
+.form-task {
+  width: 90%;
+  border: 1px solid #ddd;
+  /* border-collapse: collapse; */
+}
+
+.form-label {
+  width: 16% !important;
+  margin-right: 20px;
+  color: #666;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.form-control {
+  width: 30%;
+  display: inline;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #fff !important;
+}
+
+.task-btn {
+  margin-bottom: 20px;
+}
+
+.form-btn {
+  margin-left: 10px;
+}

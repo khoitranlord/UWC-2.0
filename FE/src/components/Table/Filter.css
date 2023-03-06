@@ -1,0 +1,17 @@
+.search-input {
+  width: 40vw;
+  height: 40px;
+  padding: 7px 8px 9px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.search-icon {
+  font-size: 20px;
+  text-align: center;
+  padding-right: 10px;
+}

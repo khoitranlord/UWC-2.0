@@ -1,0 +1,53 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td,
+table th {
+  padding: 8px;
+}
+
+table td {
+  color: #666;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #f2f2f2;
+}
+
+table th,
+tfoot td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  /* background-color: #3eba8f !important; */
+  color: #333;
+}
+
+.pagination {
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.page-item {
+  margin: 4px;
+}
+
+.page-link {
+  border-radius: 8px !important;
+  color: #666;
+}
+
+.page-link:hover {
+  color: #175036;
+}
+
+.page-item.active .page-link {
+  background-color: #175036;
+  border-color: #175036;
+}

@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+  float:left;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.menu {
+  width: auto;
+  margin-right: 0px;
+}
+.TA {
+  font-family: sans-serif;
+  text-align: center;
+}
+.head{
+ color: red;
+}
+.table
+{
+  color: black;
+}

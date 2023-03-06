@@ -1,0 +1,194 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  background-color: white;
+}
+
+.content {
+  flex: 1;
+  padding: 32px 0;
+}
+
+.mt-8 {
+  margin-top: 8rem !important;
+}
+
+.py-4 {
+  padding-top: 1.5rem !important;
+}
+.card {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-radius: 0.75em;
+}
+
+.card-header {
+  border-bottom: none;
+  background-color: #ffffff;
+}
+.card-body {
+  padding: 1.5rem;
+}
+.form-label,
+label {
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  color: #7b809a;
+  margin-left: 0.25rem;
+}
+
+.bg-gradient-primary {
+  background-image: linear-gradient(195deg, #7acff5 0, #1877f2 100%);
+}
+.shadow-primary {
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(rgb(24, 119, 242), 0.4) !important;
+}
+
+.border-radius-lg {
+  border-radius: 0.5em;
+}
+
+.mb4 {
+  margin-top: 100px;
+  margin-bottom: 1.5em !important;
+}
+
+.form-control {
+  border: none;
+}
+
+.input-group.input-group-static .form-control {
+  width: 100%;
+}
+
+.input-group.input-group-dynamic .form-control,
+.input-group.input-group-dynamic .form-control:focus,
+.input-group.input-group-static .form-control,
+.input-group.input-group-static .form-control:focus {
+  background-image: linear-gradient(
+    0deg,
+    #d2d2d2 1px,
+    rgba(209, 209, 209, 0) 0
+  );
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1.667;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  background-size: 150%;
+  background-position-x: 25%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  vertical-align: middle;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.btn-dark:hover,
+.btn.bg-gradient-dark:hover {
+  color: #fff;
+}
+.btn-dark,
+.btn.bg-gradient-dark {
+  color: #fff;
+}
+
+.btn-dark:hover,
+.btn.bg-gradient-dark:hover {
+  background-color: #344767;
+  border-color: #344767;
+  box-shadow: 0 14px 26px -12px rgba(52, 71, 103, 0.4),
+    0 4px 23px 0 rgba(52, 71, 103, 0.15), 0 8px 10px -5px rgba(52, 71, 103, 0.2);
+}
+
+.bg-gradient-dark {
+  background-image: linear-gradient(195deg, #42424a 0, #191919 100%);
+}
+
+.text-sm {
+  font-size: 0.875rem !important;
+}
+
+.card .card-footer {
+  background-color: transparent;
+  border-top: 0 solid rgba(0, 0, 0, 0.125);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.col {
+  padding: 0;
+}
+
+.signin-card {
+  background-color: #175036;
+  border-radius: 8px;
+}
+
+.authen-title-text {
+  font-size: 32px;
+  margin-left: 0.5rem;
+  margin-top: 1.5rem !important;
+  color: #333333;
+}
+
+.signin-btn {
+  border-radius: 8px;
+  background-color: #198754;
+}
+
+.signin-btn:hover {
+  background-color: #175036;
+}
+
+.card {
+  border-radius: 8px;
+}
+
+.label-text {
+  color: #666666;
+}
+
+.signup-text {
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.signin-text {
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #ff6e6e;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
