@@ -20,7 +20,7 @@ RUN npm i -g npm@latest expo-cli@latest
 RUN mkdir /opt/BE
 WORKDIR /opt/BE
 ENV PATH /opt/FE/.bin:$PATH
-COPY ./BE/package.json package-lock.json ./
+COPY ./package.json package-lock.json ./
 RUN npm install --force
 
 
